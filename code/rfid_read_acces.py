@@ -22,7 +22,7 @@ def get_user(uid):
 
 spi = SoftSPI(baudrate=100_000, polarity=0, phase=0, sck=Pin(14), mosi=Pin(27), miso=Pin(26))
 spi.init()
-lecteur_rfid = MFRC522(sck=14, mosi=27, miso=26, rst=33, cs=25) #sda = cs
+lecteur_rfid = MFRC522(sck=22, mosi=21, miso=19, rst=18, cs=23) #sda = cs
 
 while True:
     print("Identifiez-vous")
