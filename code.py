@@ -7,7 +7,7 @@ code = "1234A"
 userInput = ""
 
 
-def iscode(entry) -> None:
+def iscode(entry: str) -> bool:
     return code == entry
 
 
@@ -21,4 +21,3 @@ while True:
             print(":(")
         userInput = ""
     sleep(0.3)
-
