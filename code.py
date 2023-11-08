@@ -1,4 +1,5 @@
 from pave_numerique import Pave
+from time import sleep
 
 pave = Pave()
 
@@ -17,4 +18,6 @@ while True:
             print(":)")
         else:
             print(":(")
+        userInput = ""
+    sleep(0.3)
 
