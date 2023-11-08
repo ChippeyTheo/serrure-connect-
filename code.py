@@ -13,6 +13,7 @@ def iscode(entry) -> None:
 
 while True:
     userInput += pave.getkey()
+    print(userInput)
     if len(userInput) == len(code):
         if iscode(userInput):
             print(":)")
