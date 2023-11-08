@@ -1,4 +1,5 @@
 from pave_numerique import Pave
+from time import sleep
 
 pave = Pave()
 
@@ -12,9 +13,12 @@ def iscode(entry) -> None:
 
 while True:
     userInput += pave.getkey()
+    print(userInput)
     if len(userInput) == len(code):
         if iscode(userInput):
             print(":)")
         else:
             print(":(")
+        userInput = ""
+    sleep(0.3)
 
