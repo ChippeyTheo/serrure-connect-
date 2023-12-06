@@ -1,3 +1,7 @@
 .idea
 /.idea
 /.idea/*
+venv/
+fingerprint/cmake/
+fingerprint/cmake-build-debug/
+fingerprint/.idea/
