@@ -3,6 +3,7 @@ from rfid_access_async import RFID
 from SG90 import SG90
 from lib.buzzer import Buzzer
 from lib.led import Led
+from lib.capteur import Capteur
 import uasyncio as asyncio
 
 
@@ -14,24 +15,30 @@ class Main:
         self.__sg90 = SG90(pin=13)
         self.__red_led = Led(pin=2)
         self.__green_led = Led(pin=15)
-        self.__capteur =
-        self.__rfid_access = False
-        self.__code_access = False
+        self.__capteur = Capteur(pin=12)
+        self.__result = None
+
     #     blanche, rouge, verte
 
     async def run(self):
+        await self.__capteur.read()
         while True:
-            self.__code_access = await self.__code.get_user_input()
-            self.__rfid_access = await self.__rfid.read_rfid()
-            if self.__code_access and self.__rfid_access:
-                self.__green_led.on()
-                await self.__buzzer.beep(1)
-                await asyncio.sleep(0.5)
-                await self.__buzzer.beep(1)
-                self.__sg90.open()
+            self.__result = await asyncio.gather(await self.__code.get_user_input(),
+                                                 await self.__rfid.read_rfid())
+            if self.__capteur.state:
+                self.__green_led.off()
+                if self.__result[0] and self.__result[1]:
+                    self.__green_led.on()
+                    await self.__buzzer.beep(1)
+                    await asyncio.sleep(0.5)
+                    await self.__buzzer.beep(1)
+                    self.__sg90.open()
+                    await asyncio.sleep(10)
+                else:
+                    self.__red_led.on()
+                    self.__sg90.close()
             else:
-                self.__red_led.on()
-                self.__sg90.close()
+                self.__green_led.on()
             await asyncio.sleep(0.3)
 
 
