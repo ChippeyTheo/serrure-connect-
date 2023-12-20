@@ -16,9 +16,12 @@ class Code(Pave):
 
     async def get_user_input(self):
         while True:
-            self.__userInput += await self.getkey()
+            try:
+                self.__userInput += await self.getkey() if await self.getkey() is not None else ""
+            except TypeError:
+                pass
             print(self.__userInput)
-            if len(self.__userInput) == len(code):
+            if len(self.__userInput) == len(self.__code):
                 if self.__iscode(self.__userInput):
                     self.__userInput = ""
                     if self.__buzzer is not None:
