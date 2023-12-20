@@ -5,7 +5,7 @@ from lib.buzzer import Buzzer
 
 
 class RFID(MFRC522):
-    def __init__(self,sck=22, mosi=23, miso=19, rst=18, cs=5, buzzer: Buzzer=None):
+    def __init__(self, sck=22, mosi=23, miso=19, rst=18, cs=5, buzzer: Buzzer = None):
         super().__init__(sck=sck, mosi=mosi, miso=miso, rst=rst, cs=cs)
         self.__rfid_name = ["carte",
                             "badge_bleu1",
