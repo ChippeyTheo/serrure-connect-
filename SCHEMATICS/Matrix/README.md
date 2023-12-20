@@ -1,0 +1,1 @@
+> Note : You must replace pins 34 and 35 at 32 and 33
