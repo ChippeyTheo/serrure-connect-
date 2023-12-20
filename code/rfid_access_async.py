@@ -46,8 +46,6 @@ async def read_rfid():
             await asyncio.sleep(2)
 
 # Initialize SPI and RFID reader
-spi = SoftSPI(baudrate=100_000, polarity=0, phase=0, sck=Pin(14), mosi=Pin(27), miso=Pin(26))
-spi.init()
 lecteur_rfid = MFRC522(sck=22, mosi=21, miso=19, rst=4, cs=23)
 
 # Run the asyncio event loop
