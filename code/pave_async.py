@@ -14,6 +14,7 @@ async def get_user_input():
     global userInput
     global code
     while True:
+        print("ok")
         userInput += pave.getkey()
         print(userInput)
         if len(userInput) == len(code):

@@ -12,6 +12,7 @@ def iscode(entry: str) -> bool:
 
 
 while True:
+    print("ok")
     userInput += pave.getkey()
     print(userInput)
     if len(userInput) == len(code):
@@ -20,4 +21,4 @@ while True:
         else:
             print(":(")
         userInput = ""
-    sleep(0.3)
+    sleep(1)
