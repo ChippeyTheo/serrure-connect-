@@ -880,11 +880,7 @@
     (stroke (width 0.5) (type solid) (color 194 0 194 1))
     (uuid 04ab11c1-e586-45ad-aa89-d8262c574a83)
   )
-  (wire (pts (xy 106.68 147.32) (xy 106.68 156.21))
-    (stroke (width 0.5) (type solid) (color 255 0 0 1))
-    (uuid 05875fb3-eb81-4bb6-bfe8-405f16eb8435)
-  )
-  (wire (pts (xy 132.08 156.21) (xy 129.54 156.21))
+  (wire (pts (xy 144.78 156.21) (xy 142.24 156.21))
     (stroke (width 0.5) (type solid) (color 255 0 0 1))
     (uuid 05a7f813-65f1-4a7e-8eff-6dbdad8d5219)
   )
@@ -940,7 +936,7 @@
     (stroke (width 0.5) (type default) (color 221 133 0 1))
     (uuid 43129c31-ca1e-49aa-8405-cfd1fbf91cfd)
   )
-  (wire (pts (xy 132.08 163.83) (xy 129.54 163.83))
+  (wire (pts (xy 144.78 163.83) (xy 142.24 163.83))
     (stroke (width 0.5) (type solid) (color 0 0 0 1))
     (uuid 4458e459-130e-453e-9450-06a8885b16fc)
   )
@@ -963,10 +959,6 @@
   (wire (pts (xy 104.14 83.82) (xy 104.14 86.36))
     (stroke (width 0.5) (type solid) (color 132 132 0 1))
     (uuid 54ca6bd1-9503-45ca-b612-7fa3b9c95413)
-  )
-  (wire (pts (xy 76.2 147.32) (xy 76.2 144.78))
-    (stroke (width 0.5) (type solid) (color 255 0 0 1))
-    (uuid 5bfb2b1d-ba98-48ac-89e6-95046aa0fbb7)
   )
   (wire (pts (xy 162.56 63.5) (xy 198.12 63.5))
     (stroke (width 0.5) (type solid) (color 0 194 0 1))
@@ -1008,10 +1000,6 @@
     (stroke (width 0.5) (type solid) (color 255 0 0 1))
     (uuid 87ff7e12-f17e-436a-9d7a-90ba790b271f)
   )
-  (wire (pts (xy 55.88 156.21) (xy 59.69 156.21))
-    (stroke (width 0.5) (type solid) (color 255 0 0 1))
-    (uuid 8b53a695-0b37-4dd6-b691-9954537815ac)
-  )
   (wire (pts (xy 100.33 78.74) (xy 106.68 78.74))
     (stroke (width 0.5) (type solid) (color 204 102 0 1))
     (uuid 92038895-694a-46b8-a1a3-530217737669)
@@ -1036,13 +1024,17 @@
     (stroke (width 0.5) (type solid) (color 0 132 132 1))
     (uuid a9ce39d5-3e15-436d-a6ad-48f5fdb4c132)
   )
-  (wire (pts (xy 86.36 147.32) (xy 106.68 147.32))
+  (wire (pts (xy 67.31 156.21) (xy 121.92 156.21))
     (stroke (width 0.5) (type solid) (color 255 0 0 1))
     (uuid ac19907c-97d0-452d-a7a1-c213a64bc443)
   )
   (wire (pts (xy 100.33 83.82) (xy 104.14 83.82))
     (stroke (width 0.5) (type solid) (color 132 132 0 1))
     (uuid b0977bfe-648d-4ea1-8240-87fd902fd7f0)
+  )
+  (wire (pts (xy 107.95 148.59) (xy 105.41 148.59))
+    (stroke (width 0.5) (type solid) (color 0 0 0 1))
+    (uuid b371c361-ff0e-40d6-b87f-f60bf0c42d68)
   )
   (wire (pts (xy 180.34 115.57) (xy 180.34 99.06))
     (stroke (width 0.5) (type solid) (color 0 132 132 1))
@@ -1056,7 +1048,7 @@
     (stroke (width 0.5) (type solid) (color 194 194 0 1))
     (uuid bda1561c-b704-4185-a3b4-5f5fc14ba353)
   )
-  (wire (pts (xy 55.88 147.32) (xy 55.88 156.21))
+  (wire (pts (xy 35.56 153.67) (xy 35.56 156.21))
     (stroke (width 0.5) (type solid) (color 255 0 0 1))
     (uuid bdec0b88-1223-41f4-8fc7-74e6c520c827)
   )
@@ -1068,9 +1060,9 @@
     (stroke (width 0.5) (type solid) (color 0 194 0 1))
     (uuid bf309f5c-470c-4392-942f-13556bc4f918)
   )
-  (wire (pts (xy 106.68 156.21) (xy 109.22 156.21))
-    (stroke (width 0.5) (type solid) (color 255 0 0 1))
-    (uuid c05cc6cf-711e-4189-b0e3-15621325c5b6)
+  (wire (pts (xy 35.56 166.37) (xy 121.92 166.37))
+    (stroke (width 0.5) (type solid) (color 0 0 0 1))
+    (uuid c2cde336-c5ce-4ee4-85bc-66acba7c71fb)
   )
   (wire (pts (xy 100.33 68.58) (xy 111.76 68.58))
     (stroke (width 0.5) (type solid) (color 0 132 132 1))
@@ -1100,10 +1092,6 @@
     (stroke (width 0.5) (type solid) (color 0 0 0 1))
     (uuid d87eaacb-3297-4171-b5b3-582ae8db80ff)
   )
-  (wire (pts (xy 59.69 166.37) (xy 109.22 166.37))
-    (stroke (width 0.5) (type solid) (color 0 0 0 1))
-    (uuid dab7ec5d-f02b-4539-8610-1dd2b4a3e230)
-  )
   (wire (pts (xy 100.33 58.42) (xy 116.84 58.42))
     (stroke (width 0.5) (type solid) (color 194 0 194 1))
     (uuid def9abff-709d-42d5-966b-c5dd59a119aa)
@@ -1120,6 +1108,10 @@
     (stroke (width 0.5) (type solid) (color 132 132 132 1))
     (uuid f3a05409-d8f5-4dab-93ca-a7b92c3a89cb)
   )
+  (wire (pts (xy 87.63 148.59) (xy 90.17 148.59))
+    (stroke (width 0.5) (type solid) (color 255 0 0 1))
+    (uuid f46410ab-d89d-4cd8-95ef-62e962cd7c31)
+  )
   (wire (pts (xy 162.56 81.28) (xy 184.15 81.28))
     (stroke (width 0.5) (type solid) (color 0 132 132 1))
     (uuid f6753f17-5b58-42e4-a1f4-32ac333a2b34)
@@ -1132,7 +1124,7 @@
     (stroke (width 0.5) (type solid) (color 255 0 0 1))
     (uuid fa5e7837-f326-4142-baaf-13052870da15)
   )
-  (wire (pts (xy 55.88 147.32) (xy 76.2 147.32))
+  (wire (pts (xy 35.56 153.67) (xy 57.15 153.67))
     (stroke (width 0.5) (type solid) (color 255 0 0 1))
     (uuid fb0584fc-1e61-45d4-bc35-1000f772a20f)
   )
@@ -1153,7 +1145,7 @@
     (effects (font (size 1.27 1.27) (color 0 0 0 1)) (justify left bottom))
     (uuid 0675c7e6-1b0c-4a6d-a2d4-1fed9590725d)
   )
-  (text "6/12/23" (at 207.01 194.31 0)
+  (text "20/12/23" (at 207.01 194.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7f99040a-8b08-4cd4-860f-0c55092dd1b5)
   )
@@ -1169,7 +1161,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c5529e35-c4c9-4e46-97a3-fa1365c5583f)
   )
-  (text "Strongbox v1" (at 187.96 190.5 0)
+  (text "Strongbox v2" (at 187.96 190.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e92919a8-b148-409a-a796-f0000d8faf81)
   )
@@ -1258,10 +1250,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "GND" (shape input) (at 132.08 163.83 0) (fields_autoplaced)
+  (global_label "GND" (shape input) (at 144.78 163.83 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid bb842120-5577-4631-a564-c6fe2338f3fd)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 138.9357 163.83 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 151.6357 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1269,6 +1261,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c3bb5add-24e2-4468-9765-66ea8c8974da)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 123.0472 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "5V" (shape input) (at 87.63 148.59 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid c5452504-cad9-4449-b7ab-0b0c18a870ff)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 82.3467 148.59 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1286,10 +1285,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "5V" (shape input) (at 132.08 156.21 0) (fields_autoplaced)
+  (global_label "GND" (shape input) (at 107.95 148.59 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e023c4bd-cd82-40c5-8f05-c2c7baba8e37)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 114.8057 148.59 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "5V" (shape input) (at 144.78 156.21 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f066ede9-45f4-4742-b69e-a3e6b66c17ac)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 137.3633 156.21 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 150.0633 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1325,7 +1331,7 @@
     (pin "3.0" (uuid 92d15497-3e1a-4528-9f63-8f12ab9b6824))
     (pin "4.0" (uuid e4902659-89e0-434c-98ea-87b7c21a009b))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "RFID1") (unit 1)
         )
@@ -1351,7 +1357,7 @@
     (pin "1" (uuid 05ab7731-ab6d-4824-bb8d-7f3796ea33f1))
     (pin "2" (uuid e2475d5a-9482-4ff8-991a-a56cb8d0cad2))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "R2") (unit 1)
         )
@@ -1359,26 +1365,26 @@
     )
   )
 
-  (symbol (lib_id "Switch:SW_Nidec_CAS-120A1") (at 81.28 144.78 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Nidec_CAS-120A1") (at 62.23 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 27c9084f-b07c-48cf-bd1b-2c1bfea1940b)
-    (property "Reference" "SW1" (at 81.3435 137.16 0)
+    (property "Reference" "SW1" (at 62.2935 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "Button" (at 81.3435 138.43 0)
+    (property "Value" "Button" (at 62.2935 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A" (at 81.28 154.94 0)
+    (property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A" (at 62.23 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf" (at 81.28 152.4 0)
+    (property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf" (at 62.23 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "3" (uuid 6df2cb1c-3167-4772-97d1-c6f2a71df292))
     (pin "1" (uuid 99769209-cedb-4760-a551-a1c6348423a3))
     (pin "2" (uuid b1044c97-75dc-41a8-bc2f-cb54bdae8592))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "SW1") (unit 1)
         )
@@ -1404,7 +1410,7 @@
     (pin "1" (uuid 35306851-f5ee-49d4-bf62-2d8a9d94cb79))
     (pin "2" (uuid 04b24a4b-4163-4dc9-8c0b-1ba9f6ce0ba2))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "R1") (unit 1)
         )
@@ -1430,7 +1436,7 @@
     (pin "1" (uuid f099b9a0-efcd-414c-a7c8-6343e7a39753))
     (pin "2" (uuid 21ef5e42-722b-40d7-b5e3-2eff02bf1cbb))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "D1") (unit 1)
         )
@@ -1456,7 +1462,7 @@
     (pin "1" (uuid 0728e76e-5af2-4abe-ab6d-9fd5cd4c12c9))
     (pin "2" (uuid aee2038b-f754-4112-9a72-f55b6d83d39a))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "SW2") (unit 1)
         )
@@ -1488,7 +1494,7 @@
     (pin "7" (uuid 72fb1080-6350-4047-b77b-62397ca6e5e4))
     (pin "8" (uuid 9cc6cae7-f165-4f19-88ae-40951ed12e5d))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "RFID1") (unit 1)
         )
@@ -1514,7 +1520,7 @@
     (pin "2" (uuid 13831c1f-05b8-4858-8bcd-18b8a9c0a76f))
     (pin "1" (uuid e8347906-06bb-44bb-af4b-0a34b5ddaf4e))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "BZ1") (unit 1)
         )
@@ -1522,25 +1528,25 @@
     )
   )
 
-  (symbol (lib_id "Device:Battery") (at 59.69 161.29 0) (unit 1)
+  (symbol (lib_id "Device:Battery") (at 35.56 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6157198a-5ce0-4dac-8139-847847061e57)
-    (property "Reference" "9V" (at 63.5 159.4485 0)
+    (property "Reference" "9V" (at 39.37 159.4485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Battery" (at 63.5 161.9885 0)
+    (property "Value" "Battery" (at 39.37 161.9885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 59.69 159.766 90)
+    (property "Footprint" "" (at 35.56 159.766 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 59.69 159.766 90)
+    (property "Datasheet" "~" (at 35.56 159.766 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3fe7dafa-fee1-41c7-9af2-d253287c69f9))
     (pin "2" (uuid 1c06e343-9761-45b1-b580-66e682f39fb2))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "9V") (unit 1)
         )
@@ -1566,7 +1572,7 @@
     (pin "1" (uuid c872c65d-5d9b-4b38-b2db-8455c3f46d64))
     (pin "2" (uuid 40c62a02-3cce-45d1-a29a-59ddf92b4642))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "D2") (unit 1)
         )
@@ -1593,7 +1599,7 @@
     (pin "2" (uuid 9803ebaa-ce89-48a6-b16f-3549d6c528ee))
     (pin "3" (uuid 827c1797-64e9-42cc-a447-1efa6d1b2da5))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "M1") (unit 1)
         )
@@ -1601,19 +1607,45 @@
     )
   )
 
-  (symbol (lib_id "Driver_LED:HV9967BK7-G") (at 119.38 161.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a5bdac02-088c-477e-8a2c-2d629a78ce5b)
-    (property "Reference" "U3" (at 118.11 148.59 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+  (symbol (lib_id "Device:R") (at 93.98 148.59 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8fd74b65-cb8a-405e-8b38-3a19e07c93ce)
+    (property "Reference" "R3" (at 93.98 142.24 90)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "BUCK 9V to 5V" (at 111.76 152.4 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "R" (at 93.98 144.78 90)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 119.38 143.51 0)
+    (property "Footprint" "" (at 93.98 150.368 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 119.38 144.78 0)
+    (property "Datasheet" "~" (at 93.98 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c6666ff8-1014-4bc8-bfb9-219e6cd4499d))
+    (pin "2" (uuid 6956004c-00ad-4ab5-bb18-97706bc0c1dd))
+    (instances
+      (project "Matrix+RFID"
+        (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
+          (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Driver_LED:HV9967BK7-G") (at 132.08 161.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a5bdac02-088c-477e-8a2c-2d629a78ce5b)
+    (property "Reference" "U3" (at 130.81 148.59 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Value" "BUCK 9V to 5V" (at 124.46 152.4 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 132.08 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 132.08 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid 5a0c62f7-2eb8-4d46-aaaa-7de127156dc7))
@@ -1621,9 +1653,35 @@
     (pin "" (uuid 5a0c62f7-2eb8-4d46-aaaa-7de127156dc9))
     (pin "" (uuid 5a0c62f7-2eb8-4d46-aaaa-7de127156dca))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "U3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 101.6 148.59 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a754fcdd-cb1c-4893-9486-83ae239b5892)
+    (property "Reference" "D3" (at 103.1875 140.97 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED" (at 103.1875 143.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 101.6 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 101.6 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4f93e6b8-6971-4b56-8ff5-e463f8b4b16e))
+    (pin "2" (uuid 447e62a6-e674-4e73-87cd-08cd0af9be0d))
+    (instances
+      (project "Matrix+RFID"
+        (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1683,7 +1741,7 @@
     (pin "4" (uuid 16e5361f-99fa-429b-8b6c-2feb06bac830))
     (pin "5" (uuid 46ee6469-7fa9-4b1a-8b00-19f360a53fba))
     (instances
-      (project "elec accessoires"
+      (project "Matrix+RFID"
         (path "/ca2a9863-33c7-4fff-914b-c944618ff844"
           (reference "U1") (unit 1)
         )
