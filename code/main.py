@@ -18,8 +18,6 @@ class Main:
         self.__capteur = Capteur(pin=12)
         self.__result = None
 
-    #     blanche, rouge, verte
-
     async def run(self):
         await self.__capteur.read()
         while True:
