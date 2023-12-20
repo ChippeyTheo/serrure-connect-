@@ -1,4 +1,4 @@
-from pave_numerique import Pave
+from lib.pave_numerique import Pave
 from time import sleep
 
 pave = Pave()

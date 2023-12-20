@@ -2,8 +2,8 @@ from machine import Pin, PWM
 
 
 class SG90:
-    def __init__(self):
-        self.__pwm = PWM(Pin(13, Pin.OUT), freq=50, duty=0)
+    def __init__(self, pin: int = 13):
+        self.__pwm = PWM(Pin(pin, Pin.OUT), freq=50, duty=0)
         self.__pwm.duty_u16(0)
         self.__pwm.freq(50)
         self.__state = False

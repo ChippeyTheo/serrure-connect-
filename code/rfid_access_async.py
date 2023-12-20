@@ -1,19 +1,21 @@
 import uasyncio as asyncio
 from lib.mfrc522 import MFRC522
 from machine import Pin, SoftSPI
+from lib.buzzer import Buzzer
 
 
 class RFID(MFRC522):
-    def __init__(self):
-        super().__init__(sck=22, mosi=21, miso=19, rst=4, cs=23)
+    def __init__(self,sck=22, mosi=23, miso=19, rst=18, cs=5, buzzer: Buzzer=None):
+        super().__init__(sck=sck, mosi=mosi, miso=miso, rst=rst, cs=cs)
         self.__rfid_name = ["carte",
                             "badge_bleu1",
                             "badge_bleu2"]
         self.__rfid_UI = ["0x8ac41a05",
                           "0xea87b463",
                           "0x038fc90b"]
-        self.__spi = SoftSPI(baudrate=100_000, polarity=0, phase=0, sck=Pin(14), mosi=Pin(27), miso=Pin(26))
+        self.__spi = SoftSPI(baudrate=100_000, polarity=0, phase=0, sck=Pin(sck), mosi=Pin(mosi), miso=Pin(miso))
         self.spi.init()
+        self.__buzzer = buzzer
 
     def __get_user(self, uid):
         if uid in self.__rfid_UI:
@@ -35,8 +37,12 @@ class RFID(MFRC522):
                 username = self.__get_user(card_id)
                 if username:
                     print("accès autorisé, bienvenue :", username)
+                    if self.__buzzer is not None:
+                        await self.__buzzer.beep(1)
                     return True
                 print("accès refusé")
+                if self.__buzzer is not None:
+                    await self.__buzzer.beep(3)
                 return False
 
             await asyncio.sleep(2)

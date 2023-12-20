@@ -1,14 +1,14 @@
-from typing import Any, Coroutine, List
-
 from machine import Pin
 import uasyncio as asyncio
+from buzzer import Buzzer
 
 
 class Pave:
     """
     Pave numérique
     """
-    def __init__(self, row: tuple = (17, 16, 5, 18), col: tuple = (14, 27, 26, 25)):
+    def __init__(self, row: tuple = (17, 16, 5, 18), col: tuple = (14, 27, 26, 25), buzzer: Buzzer = None):
+        self.__buzzer = buzzer
         self.__row_pins = [Pin(i, Pin.OUT) for i in row]
         self.__col_pins = [Pin(i, Pin.IN, Pin.PULL_UP) for i in col]
         self.__key_map = [
@@ -31,6 +31,8 @@ class Pave:
                     await asyncio.sleep_ms(self.__debounce_time)
                     if col_pin.value() == 0:
                         row_pin.value(1)
+                        if self.__buzzer is not None:
+                            await self.__buzzer.beep(0.1)
                         return self.__key_map[i][j]
             row_pin.value(1)
         return None
