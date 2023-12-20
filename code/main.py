@@ -25,7 +25,7 @@ class Main:
                                                  await self.__rfid.read_rfid())
             if self.__capteur.state:
                 self.__green_led.off()
-                if self.__result[0] and self.__result[1]:
+                if self.__result is not None and self.__result[0] and self.__result[1]:
                     self.__green_led.on()
                     await self.__buzzer.beep(1)
                     await asyncio.sleep(0.5)
